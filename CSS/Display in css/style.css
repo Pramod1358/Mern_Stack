@@ -1,0 +1,51 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid green;
+} */
+
+/* for p tags basically if you write any paragraph then if there is even though there is enough space next 
+element will print down instead of printing in same line this is because of display : block; */
+
+/*inline means if there is a space the next element will print beside the element that we are using now but for inline we cannot change styles for them like height , width ,color etc 
+at that time you should change the display to block or inline block*/
+
+/* block - inline  means it will have the both the powers of block and inline */
+
+/* none means that will not display on the screen */
+
+p{
+    display: inline;  
+}
+
+span{
+    background-color: black;
+}
+
+img{
+    display: none;
+}
+nav{
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+    text-align: end;
+    
+}
+li{
+    display: inline-block;
+    padding: 20px;
+   
+}
+ul > li > a{
+    align-items:right;
+    text-decoration: none;
+    display: inline-block;
+}
+
+li>a:hover{
+    color : white;
+}
+

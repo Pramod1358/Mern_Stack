@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.container{
+    width: 280px;
+    height: 280px;
+    border: 3px solid white;
+    border-radius: 50%;
+    animation: orbit 4s linear infinite;
+    
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    border-radius: 50%;
+    /* transition: 1s ease-in; */
+    /* animation-name: shiftBox; */
+    /* animation-name: side-in; */
+    /* animation-delay: 2s; */
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: linear; */
+    /* animation-name: orbit; */
+}
+
+/* .box:hover{
+    transform: translate(200px);
+} */
+
+@keyframes orbit {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes side-in {
+    0%{
+        transform: translate(-200px);
+    }
+    100%{
+        transform: translate(200px);
+    }
+}
+
+
+@keyframes shiftBox{
+    0%{
+        transform: translate(0 , 0);
+    }
+    25%{
+        transform: translate(200px , 0);
+    }
+    75%{
+        transform: translate(200px , 200px);
+    }
+    100%{
+        transform: translate(0 , 200px);
+    }
+}
+
+.load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cir{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    animation: loader 1s infinite alternate;
+}
+
+.cir:nth-child(even){
+    animation-delay: 0.1s;
+}
+
+
+
+
+@keyframes loader {
+    from{
+        transform: translateY(-10px)
+    }
+    to{
+        transform: translateY(10px);
+    }
+}

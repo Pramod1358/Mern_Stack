@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid red;
+    height: 400px;
+    display: flex;
+    /* row(default) , row-reverse ,column , column-reverse*/
+    /* flex-direction: column-reverse; */
+
+
+    /* wrap ,nowrap(default)  */
+    /* flex-wrap: wrap-reverse ; */
+
+    /* row-gap: 10px;
+    column-gap: 10px; */
+
+    /* flex-flow: wrap row; */
+    /*flex-start , flex-end ,center, space-between , space-evenly , space-around*/
+    /* justify-content: space-evenly; */
+
+
+    /* its default value is stretch so when we didnt write any thing it streched upto the total border */
+    /* align-items: center; */
+    /* align-content:center; */
+
+}
+
+.box{
+    border: 2px solid green;
+    width: 80px;
+    /* flex-basis: 25%; */
+}
+
+#box-1{
+     /* order: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex: 0 0 200px */
+}
+
+#box-4{
+    /* order: 4;
+    align-self: center;  */
+}

@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    display: inline-block;
+}
+
+ .logo {
+    width: 5vw;
+    height: 5vh;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2vh 2vw;
+}
+
+.username {
+    width: 5vw;
+    height: 5vh;
+    display: inline-block;
+    vertical-align:middle;
+    margin: 2vh 2vw;
+}  
+
+ul {
+    display: inline-block;
+    width: 60vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 2vh 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+.image1{
+    position: relative;
+    top: 30vh;
+    left: 25vw;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.image2 {
+    float: right;
+    position: relative;
+    bottom: 20vh;
+    right: 25vw;
+}
+
+.btn{
+    width : 10vw;
+    background-color: aqua;
+    border-radius: 20%;
+}

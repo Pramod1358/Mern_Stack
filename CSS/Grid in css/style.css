@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid red;
+    display: grid;
+    height: 700px;
+    row-gap: 10px;
+    column-gap: 10px;
+
+    /* in this how many columns you want those many you can write  */
+    grid-template-columns:200px 200px 200px;
+    /* grid-template-columns: repeat(5 , 1fr); */
+
+
+    /* grid-template-rows: 1fr 2fr; */
+    /* for remaining rather than grid-template-rows this auto row will automatically will allocate  space  */
+    /* grid-auto-rows: 120px; */
+
+    /* to align in center , start , space - between etc.. */
+    /* justify-content: baseline; */
+
+    /* This is to align our items in vertical direcion  */
+    /* align-content: start; */
+}
+
+.box{
+    border: 1px solid green;
+    padding: 20px;
+}
+
+#box-1{
+    background-color: bisque;
+    /* the end number for rows and columns should be always n-1 or you can right span (then n-1 
+    not required) */
+    
+    /* grid-column-start: 1 ;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3; */
+
+    /* grid-column: 1/4;
+    grid-row: 1/4; */
+
+    /* for all at a time  */
+    grid-area: 3 / 1 / 5 / 4;
+}
+

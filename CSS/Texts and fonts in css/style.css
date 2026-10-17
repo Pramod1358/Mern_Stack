@@ -1,0 +1,23 @@
+a{
+    text-decoration: underline;
+    text-decoration-style: wavy ;
+    text-decoration-color: red;
+}
+
+h1{
+    text-decoration: underline;
+    text-decoration-style: wavy ;
+    text-decoration-color: red;
+    /* text-shadow: 2px 2px rgb(15, 13, 13); */
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+p{
+    text-align: justify; 
+    text-indent: 30px;
+    letter-spacing: 0.09rem;
+    word-spacing: 10px;
+    
+    /* text-align: justify; makes the text evenly spread from the left side to the 
+    right side of the container other wise the plagarism of the text will miss */
+}

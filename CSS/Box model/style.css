@@ -1,0 +1,43 @@
+/* padding means the space between the content of the element and its border. It creates inner spacing within the element,
+pushing the content away from the edges of the border. */
+
+/* by default margin for body will be 8px to avoid that we should do the margin to 0px */
+
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    /* box-sizing: border-box; makes the padding and border included inside the element's width and height.
+    So if width is 200px, the total size stays 200px even after adding padding and border.
+    It helps prevent elements from becoming unexpectedly larger than the size you specified.*/
+
+}
+
+
+div{
+    border : 20px solid green;
+    padding : 20px;
+    /* it creates space between the content and the border of the div element,
+     making the content appear further away from the edges of the border . it creates spaces from upper side , lower side 
+     , left side and right side*/
+
+     /* padding : 20px 40px 60px 80px; */
+
+     /* it creates space between the content and the border of the div element, first on the top, then right, 
+     then bottom, and finally left */
+
+     /* padding : 20px 40px; */
+     /* it creates space between the content and the border of the div element, first on the top and bottom, 
+     then on the left and right */
+
+     /* padding-top : 20px; */
+     /* it creates space between the content and the border of the div element, only on the top side */
+    
+     margin : 20px;
+     height: 250px;
+     width: 250px;
+     /* it creates space between the border of the div element and the surrounding elements, pushing the div element
+      away from other elements on the page. it creates spaces from upper side , lower side , left side and right side*/
+
+}

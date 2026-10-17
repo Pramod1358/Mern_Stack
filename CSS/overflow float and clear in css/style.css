@@ -1,0 +1,37 @@
+.container{
+    /* height: 400px;
+    width: 400px; */
+    /* hidden will hide the content which is more than the height and width 
+    scroll will give you a option to scroll the overflowed content one draw back is if the content is not overflowed (then also the scroll opion will be visible)
+    visible option does not do anything 
+    where as auto will help you to scroll if it is overflowed if not overflowed scroll will not be visible */
+    /* overflow: hidden;
+    overflow: scroll;
+    overflow: visible; */
+    /* overflow: auto;
+    text-align: justify; */
+   
+}
+
+.subcontainer{
+    
+    overflow: auto;  
+    /* take out overflow once and check what it  */
+    
+}
+.img1{
+        height: 200px;
+        width: 200px;
+        float: left;
+    }
+
+.img2{
+     height: 200px;
+        width: 200px;
+        float: right;
+        
+}
+p{
+    /* clear: both;    */
+    /* it will clear the float values  */
+}

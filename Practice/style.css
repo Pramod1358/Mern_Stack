@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: cursive;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.logo img , .profile-photo img{
+    border-radius: 50%;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.img-cart img{
+    border-radius: 50%;
+    height: 5vh;
+    cursor: pointer;
+    
+}
+
+.search {
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.nav-links{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.section-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+
+
+.s1-logo img{
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.right img{
+    height: 50vh;
+    transition: 1s ease;
+}
+
+.right img:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    background-color: orange;
+    color: black;
+    padding: 1rem 0 3rem;
+    margin-top: 6.8rem;
+    height: 15.5vh;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-sec img{
+    width: 7vw;
+    height: 10vh;
+}
+
+.footer-sec{
+    display: flex;
+    gap: 7px;
+    color: white;
+}
+
+.left button{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.shoe-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    gap: 20vw;
+    
+}
+
+.price{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.quantity{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+
+.shoe-left img{
+    height: 60vh;
+    width: 25vw;
+}
+
+.price h1{
+    background-color: aqua;
+    width: 150px;
+    padding-left: 18px;
+    border-radius: 20px;
+}
+
+.price span{
+    color: lightgreen;
+}
+
+.quantity button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.quantity .size{
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 50px;
+    padding: 10px;
+}
+
+.shop-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shop-foot img{
+    height: 30vh;
+    width: 20vw;
+}
+
+.sp-cart-content{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.cart{
+    height: 100vh;
+    margin-top: 200px;
+}
+
+.bill{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bill-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    height: 50vh;
+}
+
+th, td {
+    width: 20vw;
+    
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+
+tr:first-child {
+    border-bottom: 2px solid black;
+}
+
+.coupon{
+    display: flex;
+    gap: 10px;
+}
+
+.bd{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20vw;
+}
+
+.bill{
+    margin-top: 20px;
+}
+
+#coupon{
+    height: 50px;
+    border-radius: 10px;
+}
+.coupon{
+    margin-top: 10px;
+}
+.coupon button{
+    height: 50px;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    background-color:rgb(7, 164, 227);
+}
+
+.payment-button button{
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: orange;
+    color: white;
+}
+
+.pay-img img{
+    height: 50px;
+    width: 50px;
+}
+.pay-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.foot-foot{
+    margin-top: 100px;
+}
+
+.foot-foot a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.checkout .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 20px;
+}
+
+.payment-option {
+    cursor: pointer;
+}
+
+.payment-option input {
+    display: none;
+}
+
+.payment-box {
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid #ddd;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.payment-option:last-child .payment-box {
+    width: 40px;
+}
+.payment-box i {
+    font-size: 28px;
+}
+
+.payment-option input:checked + .payment-box {
+    border-color: orange;
+    color: orange;
+}
+
+.payment-box:hover {
+    border-color: orange;
+}
+
+.payment-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 30px ;
+   
+    
+}
+
+.checkout{
+    height: 100vh;
+}
+
+.payment-grid-content input{
+    height: 5vh;
+    border-radius: 10px;
+    border-color: lightgray;
+}
+
+.ch-left-fh input{
+    height: 5vh;
+    border-radius: 10px;
+    width: 23.5vw;
+    border-color: lightgray;
+   
+}
+
+.card-number input{
+    height: 5vh;
+    border-radius: 10px;
+    width: 23.5vw;
+    border-color: lightgray;
+  
+}
+
+.ch-left-form{
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.payment{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ch-left-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dw{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

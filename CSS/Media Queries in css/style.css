@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+
+/* This the newest method  */
+
+@media (width <=500px){
+    body{
+        background-color: green;
+    }
+}
+
+/* old method  */
+
+@media (min-width : 500px) and (max-width : 600px){
+    body{
+        background-color: red;
+    }
+}

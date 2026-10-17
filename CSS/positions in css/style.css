@@ -1,0 +1,61 @@
+.container{
+    
+    background-color: aqua;
+    color: white;
+    width: 600px;
+    height: 600px;
+    margin : 100px
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+
+.static{
+    /* its the default position */
+    position: static;  
+    background-color: black;
+}
+
+.rel{
+    position: relative;
+    background-color: red;
+    top: 100px;
+    left: 200px;
+
+    /* The elements whose position is relative will depend on their parent element in this example container class */
+}
+.abs{
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+    /* The elements whose position is absolute will depend on their parent element but that parent element should be relative other wise it will depend on html by default */
+}
+.fix{
+    background-color: brown;
+    position: fixed;
+    left: 0px;
+    top:30px;
+    z-index:1;
+
+    /* see z index in chat gpt or once see out put then you will understand it defines the priority*/
+
+    /* the element whose position is fixed that will be fixed at one [place without moving] example nav bar */
+}
+.sti{
+    background-color: purple;
+    position: sticky;
+    left: 120px;
+    top: 300px;
+    
+    /* sticky will also be fixed with respect to its parent element*/
+}
+
+.Prac{
+    height: 400vh;
+}

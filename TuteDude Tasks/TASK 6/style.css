@@ -1,0 +1,68 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-basis: 50%;
+    background-color: #F6F8FE;
+    gap: 10px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 300px;
+    padding: 12px 15px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+form input[type="button"] {
+    width: 300px;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #6c63ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#fp{
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: right;
+}
+
+
+
+

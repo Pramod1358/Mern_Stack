@@ -1,0 +1,35 @@
+main{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 50%
+}
+
+section{
+    border: 2px dotted blue;
+    width: 70vw;
+}
+
+body{
+     font-size: 2em;
+}
+
+header{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+/* | Unit | Meaning         | Based on              |
+| ---- | --------------- | --------------------- |
+| `px` | Fixed size      | Pixels                |
+| `%`  | Relative size   | Parent element        |
+| `vw` | Viewport width  | Browser screen width  |
+| `vh` | Viewport height | Browser screen height | */
+
+
+/* .box1 { width: 200px; }  Always 200px
+.box2 { width: 50%; }    50% of parent width
+.box3 { width: 50vw; }   50% of screen width
+.box4 { height: 50vh; }  50% of screen height */

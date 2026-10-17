@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+   padding: 45px;
+   --bg-color : yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.box{
+    padding: 20px;
+    
+}
+
+h2{
+    background-color: var(--bg-color);
+}
+
+h4{
+    background-color: var(--bg-color , pink);
+}

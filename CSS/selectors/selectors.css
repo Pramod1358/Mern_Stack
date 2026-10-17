@@ -1,0 +1,70 @@
+
+/* element selectors are used to select HTML elements based on their name. The element 
+selector matches all elements of a given type. For example, the following CSS rule 
+will select all <p> elements and apply the specified styles to them. */
+
+/* element Selector */
+p {
+    color: blue;
+}
+
+/* class selectors are used to select HTML elements based on their class attribute. The class selector is defined by 
+a period (.) followed by the class name. For example, the following CSS rule will select all elements with the class 
+"highlight" and apply the specified styles to them. */
+
+/* class Selector */
+.clsSel {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* id selectors are used to select HTML elements based on their id attribute. The id selector is defined by a hash (#)
+followed by the id name. For example, the following CSS rule will select the element with the id "header" and apply the specified styles to it. */
+
+/* id Selector */
+
+#idSel {
+    color: red;
+    font-size: 20px;
+}
+
+/* if you want to style same style to multiple elements then you can use group selector
+. Group selector is used to select multiple HTML elements and apply the same styles to 
+them. The group selector is defined by separating the element names with a comma (,).
+ For example, the following CSS rule will select all <h1> and <h2> elements and apply the specified styles to them. */
+
+/* group Selector */
+
+#idSel, .clsSel {
+    color: purple;
+    font-family: Arial, sans-serif;
+}
+
+
+/* specificity is a measure of how specific a selector is. The more specific a selector is, the higher its specificity value.
+
+1. Inline styles have the highest specificity value, followed by ID selectors, class selectors, and element selectors. */
+
+/* universal selector is used to select all HTML elements on a page. The universal selector is defined by an asterisk (*). For example, the following CSS rule will select all elements and apply the specified styles to them. */
+
+/* universal Selector */
+
+* {
+   
+    box-sizing: border-box;
+    color: red
+}
+ 
+/*descendant selector is used to select elements that are descendants of a specified element. The descendant
+  selector is defined by separating the parent and child elements with a space. For example, the following 
+  CSS rule will select all <p> elements that are descendants of an element with the id "descSel" and apply 
+  the specified styles to them. */
+
+/* descendant selector */
+#descSel p{
+    color: green;
+}
+
+#directSel > p {
+    color: black;
+}

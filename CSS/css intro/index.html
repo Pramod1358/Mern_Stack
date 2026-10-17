@@ -1,0 +1,47 @@
+ <!-- There will 3 types of CSS: Inline, Internal, and External.
+
+ Inline css is used to apply a unique style for a single element. To use inline styles, add the style attribute
+to the relevant element. The style attribute can contain any CSS property.
+
+Internal css is used to define a style for a single HTML page. To use internal styles, add a <style> element
+inside the <head> section of the HTML page. You can then write your CSS rules inside this <style> element.
+
+External css is used to define the style for many HTML pages. To use external styles, you must link to
+ an external CSS file inside the <head> section of the HTML page. The external CSS file contains all the
+CSS rules and can be reused across multiple pages. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css -->
+    <style>
+        h2{
+            color: red;
+            background-color: lightblue;
+        }
+    </style>
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline css -->
+
+    <h1 style="color: brown; background-color: lightgray;">Hello, World!</h1>
+    <p style="color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quo voluptatem eaque animi minima nam possimus
+        illum ratione dolore maxime molestias enim non necessitatibus blanditiis neque harum ab beatae ea suscipit excepturi 
+        veritatis consequatur! Laudantium ab repellendus tempora rerum vero possimus quis exercitationem quia consequuntur 
+        illum dicta quos necessitatibus soluta doloribus ducimus modi iusto nulla, reiciendis non, ratione iste aperiam dolores
+        quae facere! Excepturi voluptatem dignissimos sapiente earum sequi, dolores illum harum explicabo at quaerat mollitia 
+        sint facere corrupti perferendis voluptatum. Nihil odit eos maxime temporibus, sequi dolores! Aut, enim. Labore placeat,
+        eveniet unde autem fugit repudiandae alias? Autem, accusamus.</p>
+
+    <h2>Hi Guys Welcome to css!</h2>
+
+    <h3>My name is Pramod Korada</h3>
+
+</body>
+
+</html>
